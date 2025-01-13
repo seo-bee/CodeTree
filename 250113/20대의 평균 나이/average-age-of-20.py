@@ -2,7 +2,7 @@ avg, cnt = 0, 0
 
 while True:
     n = int(input())
-    if (n % 20) > 9:
+    if (n - 20) < 0 or (n - 20) > 9:
         break
     avg += n
     cnt += 1
